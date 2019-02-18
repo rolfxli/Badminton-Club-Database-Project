@@ -9,7 +9,19 @@ USE general;
 
 CREATE TABLE authorized (
 -> username VARCHAR(50) NOT NULL,
--> password VARCHAT(100) NOT NULL,
+-> password VARCHAT(100) NOT NULL
 );
 
-CREATE TABLE 
+CREATE TABLE students (
+-> first_name VARCHAR(10) NOT NULL,
+-> last_name VARCHAR(20) NOT NULL,
+-> age INT NOT NULL,
+-> level INT NOT NULL,
+-> email VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE bookings (
+-> first_name VARCHAR(10) NOT NULL,
+-> last_name VARCHAR(20) NOT NULL,
+-> status ENUM('Y', 'N') NOT NULL
+);
