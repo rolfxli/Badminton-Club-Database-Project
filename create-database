@@ -1,0 +1,15 @@
+# This project requires a database
+# Any database works, however I implemented a local mySQL database for simplicity
+
+# This is the setup for the database
+
+CREATE DATABASE general;
+
+USE general;
+
+CREATE TABLE authorized (
+-> username VARCHAR(50) NOT NULL,
+-> password VARCHAT(100) NOT NULL,
+);
+
+CREATE TABLE 
